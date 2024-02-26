@@ -1,0 +1,20 @@
+a{
+    width: 100px;
+    border-radius: 30px;
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: aquamarine;
+    display: block;
+    text-decoration: none;
+}
+
+img{
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+div{
+    color: aqua;
+}
