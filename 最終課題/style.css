@@ -1,0 +1,154 @@
+@charset "utf-8";
+body {
+  font-family: "Sawarabi Mincho", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: gold;
+  font-size: 30px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+  justify-content: space-between;
+  display: flex;
+}
+.logo {
+  margin-top: 50px;
+}
+.global-nav {
+  display: flex;
+  margin-top: 60px;
+}
+.nav li {
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: "Bitter", serif;
+}
+.nav li a {
+  color: gold;
+  font-size: 30px;
+}
+.nav li a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+#wrap {
+  clear: both;
+}
+.content {
+  width: 960px;
+  margin: 150px;
+}
+
+#profile .btn {
+  display: block;
+  font-size: 20px;
+  color: white;
+  font-family: "Bitter", serif;
+  width: 185px;
+  background-color: #5295d8;
+  text-align: center;
+  line-height: 2.5;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #5295d8;
+}
+#profile .btn:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #5295d8;
+}
+
+#index {
+  background-image: url(img/desktop-wallpaper-apex-legends-octane-apex-legends.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#profile {
+  background-image: url(Profile/img/2108763978-apex_predator_logo_pc_wallpaper_1920_kabekin-vljg-1920x1080-MM-100.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Weapon {
+  background-image: url(Weapon/img/desktop-wallpaper-apex-legends-logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#warp,
+.content,
+main,
+h1 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.ct {
+  width: 960px;
+  margin: 150px;
+}
+
+#profile-1 {
+  background-image: url(Profile/img/2108763978-apex_predator_logo_pc_wallpaper_1920_kabekin-vljg-1920x1080-MM-100.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#profile-1 .btn {
+  display: flexbox;
+  font-size: 20px;
+  color: white;
+  font-family: "Bitter", serif;
+  width: 185px;
+  background-color: #5295d8;
+  text-align: center;
+  line-height: 2.5;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #5295d8;
+}
+#profile-1 .btn:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #5295d8;
+}

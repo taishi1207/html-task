@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>入力フォーム</title>
+    <link rel="stylesheet" href="register-style.css" />
+  </head>
+  <body>
+    <p>必要事項を入力の上、送信ボタンを押してください。</p>
+    <form action="#" method="get" enctype="multipart/form-data">
+      <!-- classで「required」を付けた文字の後ろに必須マークが出る -->
+      <h:Text class="required" value="ID"> ID </h:Text>
+      　　　　　　　　　　<input
+        type="email"
+        name="email"
+        size="30"
+        placeholder="例:　×××@morijyobi.ac.jp"
+      /><br />
+      <h:Text class="required" value="パスワード"> パスワード </h:Text>
+      　　　　　　<input
+        type="password"
+        name="password"
+        size="30"
+        minlength="8"
+      />
+      <input type="checkbox" />パスワードを表示する<br />
+      <h:Text class="required" value="氏名"> 氏名 </h:Text>
+      　　　　　　　　　姓：<input
+        type="text"
+        name="last_name"
+        placeholder="例：盛岡"
+      />
+      名：<input type="text" name="first_name" placeholder="例：太郎" /><br />
+      住所　　　　　　　　　　　　〒<input
+        type="text"
+        name="郵便番号"
+        size="8"
+        placeholder="020-0021"
+      /><br />
+      　　　　　　　　　　　　　　<input
+        type="text"
+        name="住所"
+        size="22"
+        placeholder="岩手県盛岡市中央通り三丁目"
+      /><br />
+      　　　　　　　　　　　　　　<input
+        type="text"
+        name="番地"
+        size="22"
+        placeholder="番地"
+      /><br />
+      　　　　　　　　　　　　　　<input
+        type="text"
+        name="建物名"
+        size="30"
+        placeholder="建物名"
+      /><br />
+      <h:Text class="required" value="携帯電話番号"> 携帯電話番号 </h:Text>
+      　　　　　<input type="tel" name="携帯電話番号" /><br />
+      <h:Text class="required" value="学科・学年"> 学科・学年 </h:Text>
+      　　　　　　<select name="学科">
+        <option value="0">学科を選択してください</option>
+        <option value="1">システム系学科</option>
+        <option value="2">デザイン系学科</option>
+        <option value="3">ビジネス系学科</option>
+      </select>
+      <select name="学年">
+        <option value="0">学年を選択してください</option>
+        <option value="1">1年</option>
+        <option value="2">2年</option>
+        <option value="3">3年</option>
+        <option value="4">4年</option></select
+      ><br />
+      <h:Text class="required" value="お得な情報・クーポン">
+        お得な情報・クーポン
+      </h:Text>
+      　　<label><input type="radio" name="情報" value="Yes" />受け取る</label>
+      　　<label
+        ><input type="radio" name="情報" value="No" />受け取らない</label
+      ><br />
+
+      <h:Text class="text"> ご意見・ご要望 </h:Text><br />
+      　　　　　　　　　　　　　　　<textarea
+        name="ご意見・ご要望"
+        cols="50"
+        rows="10"
+        maxlength="200"
+      ></textarea
+      ><br />
+    </form>
+    <button type="reset">入力内容をクリア</button>
+    <button type="submit">送信</button>
+  </body>
+</html>
