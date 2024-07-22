@@ -1,0 +1,26 @@
+header,
+footer {
+  padding: 0.1rem;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+header ul li {
+  width: 10%;
+  text-align: center;
+}
+
+header ul li a {
+  display: block;
+  padding: 0.5rem;
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bold;
+}
+body {
+  background-color: aqua;
+}

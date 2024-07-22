@@ -1,0 +1,16 @@
+
+
+@charset "utf-8";
+
+.news{
+    list-style: "●";
+}
+
+body {
+    background-color: aqua;
+}
+
+img{
+    width: 5%;
+    height: 5%;
+}
